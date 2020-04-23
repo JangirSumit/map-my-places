@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
   },
   heroContent: {
     backgroundColor: theme.palette.background.paper,
-    padding: theme.spacing(8, 0, 6),
+    padding: theme.spacing(4, 0, 6),
   },
   heroButtons: {
     marginTop: theme.spacing(4),
@@ -119,7 +119,7 @@ function App() {
                   : [0, 0]
               }
               zoom={data && data.length ? 3 : 1}
-              maxZoom={13}
+              maxZoom={18}
               attributionControl={true}
               zoomControl={true}
               doubleClickZoom={true}
